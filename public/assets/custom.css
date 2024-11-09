@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "roboto";
+    src: url("./Roboto-Regular.ttf");
+}
+
+body{
+    background: black;
+    font-family: "roboto";
+}
+
+.center_container > div{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.seat_booked{
+    background-color: yellow;
+}
+
+.seat_empty{
+    background-color: grey;
+}
